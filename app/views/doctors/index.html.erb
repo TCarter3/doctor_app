@@ -1,7 +1,5 @@
 <h1>Doctors</h1>
 <hr/>
-<%= render 'layouts/navbar' %>
-<hr/>
 <h2><%= @doctors.length <= 0 ? "No Doctors" : "" %></h2>
 <ul class="ui middle aligned animated list">
     <% @doctors.each do |doctor| %>
